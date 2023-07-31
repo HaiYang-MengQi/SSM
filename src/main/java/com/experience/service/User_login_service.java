@@ -1,9 +1,8 @@
 package com.experience.service;
 
-import com.experience.entity.User;
-import org.springframework.stereotype.Service;
 
+import com.experience.entity.User;
 
 public interface User_login_service {
-     User getUser_Service(User user);
+     User findUser(User user);
 }

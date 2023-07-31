@@ -12,7 +12,7 @@
 </head>
 <body>
     <form method="post" action="/register">
-        账户名:<input type="text" name="user_name" id="user_name" placeholder="在此输入您的用户名"><br>
+        账户名:<input type="text" name="username" id="username" placeholder="在此输入您的用户名"><br>
         密码:<input type="password" name="user_password" id="user_password"><br>
         性别:<input type="text" name="sex" id="sex"><br>
         电话:<input type="text" name="tel" id="tel"><br>

@@ -10,7 +10,7 @@
         </servlet-class>
         <init-param>
             <param-name>contextConfigLocation</param-name>
-            <param-value>classpath:springmvc.xml</param-value>
+            <param-value>classpath:spring-mvc.xml</param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>
@@ -19,8 +19,16 @@
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
-
-
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>classpath:application-*.xml</param-value>
+    </context-param>
+    <!--    容器加载的监听器-->
+    <listener>
+        <listener-class>
+            org.springframework.web.context.ContextLoaderListener
+        </listener-class>
+    </listener>
     <!-- 避免中文乱码 -->
     <filter>
         <filter-name>characterEncodingFilter</filter-name>

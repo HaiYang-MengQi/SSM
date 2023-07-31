@@ -14,9 +14,9 @@
 </head>
 <body>
     <div id="info">${info}</div>
-    <form method="post" action="/login">
-        账号:<input type="text" name="user_name" id="user_name" required="required"><br>
-        密码:<input type="password" name="user_password" id="user_password" required><br>
+    <form method="post" action="${pageContext.request.contextPath}/login">
+        账号:<input type="text" name="username" id="username" required="required"><br>
+        密码:<input type="password" name="password" id="password" required><br>
         <input type="submit" value="提交">
         <input type="reset" value="清空">
     </form>
