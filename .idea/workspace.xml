@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="us:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="960576b7-ec83-4b56-b940-2ecf7cfe2f99" name="更改" comment="SSM整合成功!">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/us_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/classes/com/experience/controller/User_login_Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/classes/com/experience/controller/User_register_Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/classes/com/experience/dao/User_Register_dao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/classes/com/experience/dao/User_find_dao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/classes/com/experience/dao/User_login_dao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/classes/com/experience/dao/impl/User_Register_dao_impl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/classes/com/experience/dao/impl/User_find_dao_impl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/classes/com/experience/dao/impl/User_login_dao_Impl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/classes/com/experience/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/classes/com/experience/service/User_login_service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/classes/com/experience/service/User_register_service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/classes/com/experience/service/impl/User_login_service_impl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/classes/com/experience/service/impl/User_register_service_impl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/classes/mapper/admin_user_info.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/classes/mapper/user_login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/classes/mapper/user_register.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/classes/mybatis_config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/classes/springmvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/lib/druid-1.2.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/lib/jackson-annotations-2.12.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/lib/jackson-core-2.12.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/lib/jackson-databind-2.12.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/lib/javax.annotation-api-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/lib/javax.servlet-api-4.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/lib/jsp-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/lib/jsqlparser-4.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/lib/mybatis-3.4.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/lib/mybatis-spring-2.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/lib/pagehelper-5.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/lib/protobuf-java-3.11.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/lib/spring-aop-5.3.19.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/lib/spring-beans-5.3.19.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/lib/spring-context-5.3.19.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/lib/spring-core-5.3.19.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/lib/spring-expression-5.3.19.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/lib/spring-jcl-5.3.19.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/lib/spring-jdbc-5.3.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/lib/spring-tx-5.3.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/lib/spring-web-5.3.19.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/lib/spring-webmvc-5.3.19.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/lib/standard-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/js/jquery-3.6.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/main.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/experience/controller/User_login_Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/experience/controller/User_login_Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/experience/service/impl/User_login_service_impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/experience/service/impl/User_login_service_impl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/experience/controller/User_login_Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/experience/controller/User_login_Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/experience/service/impl/User_login_service_impl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/experience/service/impl/User_login_service_impl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/us.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="HaiYang &lt;3080796109@qq.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2THxWYzxOBz46W00ifo27yZWIIO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/us/src/main/java/com/experience/entity&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.48390806&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;0b3b97fa66886c5688ee4ae80ec0c3c2&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;D:/us/src/main/java/com/experience/tool/RSA.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\汪海洋\Desktop\us\src\main\resources\com\experience\dao" />
+      <recent name="C:\Users\汪海洋\Desktop\us\src\main\resources\mapper" />
+      <recent name="C:\Users\汪海洋\Desktop\us\src\main\resources\com.mapper.dao" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="excludedTypes">
+      <set>
+        <option value="HttpClient.HttpRequestRunConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.56" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.56" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/book" />
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="us:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="ce6367b1-02b2-44b7-921b-f3cab6c67f3f" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64201" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="us" />
+          <artifact name="us:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="960576b7-ec83-4b56-b940-2ecf7cfe2f99" name="更改" comment="" />
+      <created>1690713839983</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690713839983</updated>
+      <workItem from="1690713841607" duration="6155000" />
+      <workItem from="1690720445793" duration="3676000" />
+      <workItem from="1690724135196" duration="3637000" />
+      <workItem from="1690759750456" duration="5728000" />
+      <workItem from="1690770312769" duration="348000" />
+      <workItem from="1690774062902" duration="45000" />
+      <workItem from="1690790588273" duration="4949000" />
+      <workItem from="1690805974295" duration="5729000" />
+      <workItem from="1690871679757" duration="7301000" />
+      <workItem from="1691028786266" duration="6100000" />
+      <workItem from="1691053592969" duration="834000" />
+      <workItem from="1691127323097" duration="1699000" />
+      <workItem from="1691129856860" duration="774000" />
+      <workItem from="1691134829392" duration="9186000" />
+      <workItem from="1691233007865" duration="4197000" />
+      <workItem from="1691276113025" duration="2698000" />
+      <workItem from="1691460592233" duration="6538000" />
+      <workItem from="1691477126458" duration="11785000" />
+      <workItem from="1691811415322" duration="9708000" />
+      <workItem from="1691884459364" duration="492000" />
+    </task>
+    <task id="LOCAL-00001" summary="SSM整合成功!">
+      <option name="closed" value="true" />
+      <created>1690766605442</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690766605442</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="8c9e6938-1441-4f55-8adb-73c7677bcd83" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="8c9e6938-1441-4f55-8adb-73c7677bcd83">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更改" />
+    <MESSAGE value="SSM整合成功!" />
+    <option name="LAST_COMMIT_MESSAGE" value="SSM整合成功!" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/experience/service/impl/User_update_service_impl.java</url>
+          <line>14</line>
+          <properties class="com.experience.service.impl.User_update_service_impl" method="modifyUser">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

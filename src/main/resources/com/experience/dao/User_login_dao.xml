@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.experience.dao.User_login_dao">
+    <select id="findUser" parameterType="com.experience.entity.User" resultType="com.experience.entity.User">
+        select * from user
+        <where>
+            username= #{username} and password = #{password}
+        </where>
+    </select>
+</mapper>
