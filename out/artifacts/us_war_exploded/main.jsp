@@ -14,5 +14,6 @@
     <a href="register.jsp">注册</a>
     <a href="download.jsp">下载</a>
     <a href="fileUpload.jsp">上传</a>
+    <a href="comment.jsp">评论</a>
 </body>
 </html>

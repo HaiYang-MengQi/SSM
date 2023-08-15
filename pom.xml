@@ -130,5 +130,13 @@
             <version>RELEASE</version>
             <scope>compile</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.36</version> <!-- 版本号可能会有所不同 -->
+        </dependency>
+
+
     </dependencies>
 </project>

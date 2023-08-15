@@ -22,7 +22,7 @@ public class User_login_Controller {
     @Autowired
     private User_login_service user_login_service;
     @RequestMapping(value = {"/login", "/userLogin"})
-    private void login(@RequestParam(value = "username", required = true) String username, @RequestParam(value = "password") String password, HttpSession session, HttpServletResponse response) throws IOException {// TODO 需要将此优化为类转化对象的传入方式,且设置@RequestParam属性指定必须要有的参数
+    private void login(@RequestParam(value = "username", required = true) String username, @RequestParam(value = "password",required = true) String password, HttpSession session, HttpServletResponse response) throws IOException {// TODO 需要将此优化为类转化对象的传入方式,且设置@RequestParam属性指定必须要有的参数
         User user = new User();
         user.setUsername(username);
         user.setPassword(password);
