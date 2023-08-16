@@ -4,6 +4,6 @@ import com.experience.entity.Comment;
 
 import java.util.List;
 
-public interface Comment_load_dao {
-    List<Comment> getComments(int id);
+public interface Comment_get_dao {
+    List<Comment> getComment(int id);
 }

@@ -12,8 +12,10 @@
 </head>
 <body>
         ID:<input type="text" name="id" id="id"/><br><br>
-        评论:<textarea name="comment" id="words"></textarea><br><br>
-        <button onclick="setDate()">发表评论</button>
+        评论:<textarea name="comment" id="words" required></textarea><br><br>
+        <button onclick="setDate()">发表评论</button><br><br>
+        ID:<input type="text" id="commentID" placeholder="请在此输入要获取的ID值">
+        <button onclick="getComments()">获取评论</button>
         <div id="comments"></div>
 </body>
 <script type="text/javascript">
@@ -41,25 +43,21 @@
             alert("网络异常!")
         }
     }
-
-    // setInterval(getComments,1000);
     getComments()
     function getComments() {
-        // const id = document.getElementById("comments").value;
-        const  id = document.getElementById("comments")
+        const  comments = document.getElementById("comments")
+        comments.value = ''
+        const  commentID =document.getElementById("commentID").value
         const xhr = new XMLHttpRequest();
-        xhr.open("GET","loadComments?id=1",true);
+        xhr.open("GET","/getComment?id="+commentID,true);
         xhr.onreadystatechange = function (){
             if (xhr.status === 200 && xhr.readyState ===4){
-                let data = xhr.response.list
+                let data =JSON.parse(xhr.responseText)
                 console.log(data)
-
+                comments.innerHTML = ""
                 for(let i =0 ; i<data.length ; i++){
-                    id.innerHTML = data[i].id+"<br>"+
-                    data[i].comment+"<br>"+
-                    data[i].time+"<br>"
+                        comments.innerHTML += data[i].id+data[i].comment+data[i].time+"<br/>"
                 }
-
             }
         }
         xhr.send()

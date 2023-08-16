@@ -4,6 +4,6 @@ import com.experience.entity.Comment;
 
 import java.util.List;
 
-public interface Comment_load_service {
-    List<Comment> getComments(int id);
+public interface Comment_get_service {
+     List<Comment> get_comments(int id);
 }
