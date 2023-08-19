@@ -25,4 +25,27 @@
         <property name="maxUploadSize" value="2097152"/>
         <property name="resolveLazily" value="true"/>
      </bean>
+
+<!--    <bean class="org.springframework.web.socket.server.standard.ServerEndpointExporter" />-->
+<!--    这个配置用于启用 Spring 对 WebSocket 的支持。-->
+<!--    ServerEndpointExporter 是 Spring WebSocket 的核心组件，-->
+<!--    它负责注册和管理 WebSocket 端点（Endpoints），-->
+<!--    以便能够与 WebSocket 连接进行交互。-->
+<!--    通过在 Spring 配置文件中添加这个 <bean> 标签，-->
+<!--    你告诉 Spring 启用了 WebSocket 支持，-->
+<!--    从而让你的 WebSocket 处理类能够被正确地初始化和管理。-->
+
+
+<!--    <bean class="org.springframework.web.socket.server.support.HttpSessionHandshakeInterceptor" />-->
+<!--    这个配置是一个握手拦截器，-->
+<!--    用于在建立 WebSocket 连接之前执行一些额外的操作。-->
+<!--    例如，你可以在握手阶段获取 HttpSession，-->
+<!--    并在 WebSocket 会话中传递一些数据。-->
+<!--    这在某些情况下可能会很有用，-->
+<!--    比如进行身份验证。-->
+<!--    要确保这两个 <bean> 配置在 Spring 配置文件（如 Spring 的 XML 配置文件）中被正确地添加 。-->
+<!--    这将确保你的 Spring 应用程序能够正确处理 WebSocket 连接。-->
+<!--    <bean id="myWebSocket" class="com.experience.tool.MyWebSocket" />-->
+
+
 </beans>

@@ -52,6 +52,7 @@
         </dependency>
 
 
+
         <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis-spring</artifactId>
@@ -137,6 +138,12 @@
             <version>1.7.36</version> <!-- 版本号可能会有所不同 -->
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-websocket -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-websocket</artifactId>
+            <version>5.3.19</version>
+        </dependency>
 
     </dependencies>
 </project>

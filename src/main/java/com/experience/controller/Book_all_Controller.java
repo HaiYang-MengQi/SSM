@@ -13,10 +13,13 @@ import java.util.List;
 public class Book_all_Controller {
     @Autowired
     Book_all_service book_all_service;
-
-@RequestMapping("/book")
-    public void demo() {
-    PageInfo<Book> info = book_all_service.getAllBooks();
+//FIXME bad Sql
+@RequestMapping(value = "/book")
+    public void sendBook(int pageNum, int pageSize) {
+    PageInfo<Book> info = book_all_service.getAllBooks(pageNum,pageSize);
+    for(Book book : info.getList()) {
+        System.out.println(book.toString());
     }
+}
 
 }

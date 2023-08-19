@@ -9,18 +9,16 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+//FIXME 错误,badSql
 @Service
 public class Book_all_service_impl implements Book_all_service {
     @Autowired
     Book_all_dao book_all_dao;
-
     @Override
-    public PageInfo<Book> getAllBooks() {
-        PageHelper.startPage(2, 6);
+    public PageInfo<Book> getAllBooks(int pageNum,int pageSize) {
+        PageHelper.startPage(pageNum,pageSize);
         List<Book> book = book_all_dao.getBookList();
         PageInfo<Book> pageInfo = new PageInfo<>(book);
-        System.out.println(pageInfo);
         return pageInfo;
     }
 }
