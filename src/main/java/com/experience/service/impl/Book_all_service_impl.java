@@ -9,7 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-//FIXME 错误,badSql
 @Service
 public class Book_all_service_impl implements Book_all_service {
     @Autowired

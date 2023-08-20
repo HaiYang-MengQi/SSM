@@ -13,10 +13,10 @@ import java.util.List;
 public class Book_all_Controller {
     @Autowired
     Book_all_service book_all_service;
-//FIXME bad Sql
 @RequestMapping(value = "/book")
-    public void sendBook(int pageNum, int pageSize) {
+public void sendBook(int pageNum, int pageSize) {
     PageInfo<Book> info = book_all_service.getAllBooks(pageNum,pageSize);
+    //获取分页结果后打印到控制台
     for(Book book : info.getList()) {
         System.out.println(book.toString());
     }
