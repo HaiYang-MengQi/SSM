@@ -51,8 +51,6 @@
             <version>5.3.3</version>
         </dependency>
 
-
-
         <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis-spring</artifactId>
@@ -138,7 +136,15 @@
             <version>1.7.36</version> <!-- 版本号可能会有所不同 -->
         </dependency>
 
-<!--        往下是扩展功能-->
+        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-nop</artifactId>
+            <version>1.7.25</version>
+        </dependency>
+
+
+        <!--        往下是扩展功能-->
 
         <!-- https://mvnrepository.com/artifact/org.springframework/spring-websocket -->
         <dependency>
@@ -152,6 +158,12 @@
             <groupId>commons-codec</groupId>
             <artifactId>commons-codec</artifactId>
             <version>1.15</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.7.2</version>
         </dependency>
 
     </dependencies>

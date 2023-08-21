@@ -1,6 +1,9 @@
 package com.experience.entity;
 
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
 public class Book {
 
   private int id;
@@ -44,6 +47,16 @@ public class Book {
     this.author = author;
   }
 
+  @PostConstruct
+  public void init() {
+    System.out.println("Book's bean has been injected with values");
+  }
+
+  @PreDestroy
+  public void destroy() {
+    System.out.println("Book's bean is called before it is destroyed");
+  }
+
   @Override
   public String toString() {
     return "Book{" +
@@ -53,4 +66,5 @@ public class Book {
             ", author='" + author + '\'' +
             '}';
   }
+
 }
