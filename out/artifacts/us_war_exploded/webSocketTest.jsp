@@ -1,6 +1,6 @@
 <%--
   Created by IntelliJ IDEA.
-  User: 汪海洋
+  User: Tom
   Date: 2023/8/17
   Time: 10:23
   To change this template use File | Settings | File Templates.
@@ -14,21 +14,25 @@
 <script>
     function communicate() {
         const socket = new WebSocket("ws://localhost:8080/getComment");
-        socket.addEventListener("open",(event => {
-            console.log("webSocket已经连接!")
-            socket.send("hello socket!")
-            socket.close()
-        }));
-        socket.addEventListener("message",(event => {
-            const  message = event.data
-            console.log("接收到信息!"+message)
-        }));
-        socket.addEventListener("close",event => {
-            console.log("webSocket已经关闭!")
-        });
-        socket.addEventListener("error",event => {
-            console.log("webSocket连接错误!")
-        });
+        socket.onopen = function (event) {
+            console.log("webSocket is opened")
+        }
+        socket.onerror = function (event) {
+            console.error("webSocket error" + event)
+        }
+        socket.onmessage = function (event){
+            var data = event.data;
+            console.log("received message is " + data)
+        }
+        socket.onclose = function (event) {
+            if (event.wasClean) {
+                console.log("WebSocket closed cleanly, code=" + event.code + ", reason=" + event.reason);
+            } else {
+                console.error("WebSocket connection closed unexpectedly.");
+            }
+        }
+        socket.send("hello world!");
+       
     }
 
 </script>
