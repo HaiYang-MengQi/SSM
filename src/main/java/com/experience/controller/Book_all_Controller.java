@@ -14,6 +14,13 @@ public class Book_all_Controller {
     @Autowired
     Book_all_service book_all_service;
 @RequestMapping(value = "/book")
+/**
+ * @author 汪海洋
+ * @param pageNum 页码
+ * @param pageSize 数据长度
+ * @see #getBook_all_service.book
+ * @return void
+ */
 public void sendBook(int pageNum, int pageSize) {
     PageInfo<Book> info = book_all_service.getAllBooks(pageNum,pageSize);
     //获取分页结果后打印到控制台

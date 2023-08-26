@@ -13,18 +13,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="960576b7-ec83-4b56-b940-2ecf7cfe2f99" name="更改" comment="RSA于数字签名">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/us_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/us_war_exploded.xml" afterDir="false" />
+    <list default="true" id="960576b7-ec83-4b56-b940-2ecf7cfe2f99" name="更改" comment="aop add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/experience/config/WebSocketConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/classes/com/experience/aspect/MyAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/classes/com/experience/aspect/MyAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/classes/com/experience/controller/Book_all_Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/classes/com/experience/controller/Book_all_Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/classes/com/experience/controller/File_Upload_Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/classes/com/experience/controller/File_Upload_Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/classes/com/experience/controller/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/classes/com/experience/controller/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/classes/com/experience/controller/WebSocketController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/classes/com/experience/entity/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/classes/com/experience/entity/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/classes/com/experience/service/LoginService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/us_war_exploded/WEB-INF/classes/com/experience/service/LoginService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/save/1685799842582.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/save/1685800057421.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/save/AutoResponder.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/save/articles" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/us_war_exploded/save/mengqi.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/experience/aspect/MyAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/experience/aspect/MyAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/experience/controller/Book_all_Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/experience/controller/Book_all_Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/experience/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/experience/entity/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/webSocketTest.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/webSocketTest.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/experience/controller/File_Upload_Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/experience/controller/File_Upload_Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/experience/controller/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/experience/controller/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/experience/controller/WebSocketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/experience/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/experience/service/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/experience/aspect/MyAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/experience/aspect/MyAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/experience/controller/Book_all_Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/experience/controller/Book_all_Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/experience/controller/File_Upload_Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/experience/controller/File_Upload_Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/experience/controller/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/experience/controller/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/experience/controller/WebSocketController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/experience/entity/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/experience/entity/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/experience/service/LoginService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/experience/service/LoginService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,10 +50,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="Interface" />
         <option value="JavaScript File" />
         <option value="Jsp File" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -53,6 +68,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/resources/application-dao.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/application-service.xml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="LogFilters">
@@ -80,32 +96,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/汪海洋/Desktop/websocket_ssm_chat-master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.48390806",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "0b3b97fa66886c5688ee4ae80ec0c3c2",
-    "two.files.diff.last.used.file": "D:/us/src/main/java/com/experience/tool/RSA.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/汪海洋/Desktop/websocket_ssm_chat-master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.48390806&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;0b3b97fa66886c5688ee4ae80ec0c3c2&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;D:/us/src/main/java/com/experience/tool/RSA.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReadonlyStatusHandler">
     <option name="SHOW_DIALOG" value="false" />
   </component>
@@ -126,7 +142,14 @@
       </set>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.UDPSender">
+    <configuration name="UDPSender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UDPSender" />
+      <module name="us" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,7 +162,7 @@
       </method>
     </configuration>
     <configuration name="Tomcat 9.0.56" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.56" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/denglu" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/main.jsp" />
       <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -228,6 +251,15 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.UDPSender" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.56" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UDPSender" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -270,7 +302,11 @@
       <workItem from="1692493083207" duration="8069000" />
       <workItem from="1692506317885" duration="103000" />
       <workItem from="1692525192122" duration="705000" />
-      <workItem from="1692533664118" duration="22650000" />
+      <workItem from="1692533664118" duration="24318000" />
+      <workItem from="1692676093292" duration="16045000" />
+      <workItem from="1692756673375" duration="5783000" />
+      <workItem from="1692856625583" duration="19699000" />
+      <workItem from="1693012208470" duration="13648000" />
     </task>
     <task id="LOCAL-00001" summary="SSM整合成功!">
       <option name="closed" value="true" />
@@ -336,7 +372,31 @@
       <option name="project" value="LOCAL" />
       <updated>1692506404321</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="aop add">
+      <option name="closed" value="true" />
+      <created>1692617257366</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1692617257366</updated>
+    </task>
+    <task id="LOCAL-00010" summary="aop add">
+      <option name="closed" value="true" />
+      <created>1692617269005</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1692617269005</updated>
+    </task>
+    <task id="LOCAL-00011" summary="aop add">
+      <option name="closed" value="true" />
+      <created>1692617292562</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1692617292562</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,7 +474,8 @@
     <MESSAGE value="Json Ajax" />
     <MESSAGE value="完成了pagehelper" />
     <MESSAGE value="RSA于数字签名" />
-    <option name="LAST_COMMIT_MESSAGE" value="RSA于数字签名" />
+    <MESSAGE value="aop add" />
+    <option name="LAST_COMMIT_MESSAGE" value="aop add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

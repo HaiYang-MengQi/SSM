@@ -8,8 +8,9 @@ import org.springframework.stereotype.Component;
 @Component
 @Aspect
 public class MyAspect {
-    @Pointcut("execution(void com.experience.service.LoginService.login())")
+    @Pointcut("execution(* com.experience.service.LoginService.login())")
     private void method(){}
+    //FIXME 出错,aop切面输出结果重复
     @Before("method() ")
     public void show(){
         System.out.println("登录前检查!");
