@@ -1,5 +1,7 @@
 package com.experience.entity;
 
+import java.util.List;
+
 public class User {
     private int id;
     private String username;
@@ -7,6 +9,16 @@ public class User {
     private String sex;
     private String tel;
     private String address;
+
+    private List<Orders> orders;
+
+    public List<Orders> getOrders() {
+        return orders;
+    }
+
+    public void setOrders(List<Orders> orders) {
+        this.orders = orders;
+    }
 
     public int getId() {
         return id;
@@ -55,6 +67,8 @@ public class User {
     public void setAddress(String address) {
         this.address = address;
     }
+
+
 
     @Override
     public String toString() {
