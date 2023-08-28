@@ -12,6 +12,7 @@
     <title>登录页面</title>
 </head>
 <body>
+        ${msg}
     <form method="post" action="/login">
         账号:<input type="text" name="username" id="username" required="required"><br>
         密码:<input type="password" name="password" id="password" required><br>

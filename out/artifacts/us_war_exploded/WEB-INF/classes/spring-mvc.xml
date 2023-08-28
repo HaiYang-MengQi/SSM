@@ -26,6 +26,13 @@
         <property name="resolveLazily" value="true"/>
      </bean>
 
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <bean class="com.experience.interceptor.User_login_interceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+
 <!--    <bean class="org.springframework.web.socket.server.standard.ServerEndpointExporter" />-->
 <!--    这个配置用于启用 Spring 对 WebSocket 的支持。-->
 <!--    ServerEndpointExporter 是 Spring WebSocket 的核心组件，-->

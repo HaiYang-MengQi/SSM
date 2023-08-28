@@ -22,10 +22,17 @@ public class User_login_Controller {
     @Autowired
     private User_login_service user_login_service;
     @RequestMapping(value = {"/login", "/userLogin"})
-    private void login(@RequestParam(value = "username", required = true) String username, @RequestParam(value = "password",required = true) String password, HttpSession session, HttpServletResponse response) throws IOException {
+    private String login(@RequestParam(value = "username", required = true) String username, @RequestParam(value = "password",required = true) String password, HttpSession session) throws IOException {
         User user = new User();
         user.setUsername(username);
         user.setPassword(password);
-        System.out.println(user_login_service.findUser(user).toString());
+       User u = user_login_service.findUser(user);
+       if(u != null){
+           session.setAttribute("user", user);
+           return "main";
+       }
+       else {
+           return "login";
+       }
     }
 }
