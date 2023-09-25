@@ -11,6 +11,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.List;
 
+/***
+ * 此类用于将用户评论通过JSON的方式发送到前台
+ */
+
 @Controller
 public class Comment_get_Controller {
     @Autowired

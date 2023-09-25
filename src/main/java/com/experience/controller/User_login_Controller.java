@@ -15,6 +15,7 @@ import java.math.BigInteger;
 
 
 /**
+ * 此类用于用户登录的功能
  * @author 汪海洋
  */
 @Controller

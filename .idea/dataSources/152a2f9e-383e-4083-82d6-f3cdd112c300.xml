@@ -1038,7 +1038,9 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Position>3</Position>
     </column>
     <column id="298" parent="286" name="id">
+      <AutoIncrement>5</AutoIncrement>
       <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
     <column id="299" parent="286" name="file_name">
@@ -1050,7 +1052,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Position>3</Position>
     </column>
     <column id="301" parent="286" name="upload_date">
-      <DasType>timestamp|0s</DasType>
+      <DasType>varchar(255)|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="302" parent="286" name="file_size">
@@ -1061,64 +1063,75 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <DasType>varchar(255)|0s</DasType>
       <Position>6</Position>
     </column>
-    <column id="304" parent="287" name="id">
-      <DasType>int|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="305" parent="287" name="goodsname">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>2</Position>
-    </column>
-    <column id="306" parent="287" name="time">
-      <DasType>timestamp|0s</DasType>
-      <Position>3</Position>
-    </column>
-    <column id="307" parent="288" name="id">
-      <AutoIncrement>17</AutoIncrement>
-      <DasType>int|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="308" parent="288" name="username">
-      <DasType>varchar(7)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-    </column>
-    <column id="309" parent="288" name="password">
-      <DasType>varchar(11)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>3</Position>
-    </column>
-    <column id="310" parent="288" name="sex">
-      <DasType>varchar(12)|0s</DasType>
-      <Position>4</Position>
-    </column>
-    <column id="311" parent="288" name="tel">
-      <DasType>char(11)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>5</Position>
-    </column>
-    <column id="312" parent="288" name="address">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>6</Position>
-    </column>
-    <index id="313" parent="288" name="PRIMARY">
+    <index id="304" parent="286" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="314" parent="288" name="user_name">
-      <ColNames>username</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="315" parent="288" name="PRIMARY">
+    <key id="305" parent="286" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <key id="316" parent="288" name="user_name">
+    <column id="306" parent="287" name="id">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="307" parent="287" name="goodsname">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="308" parent="287" name="time">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="309" parent="288" name="id">
+      <AutoIncrement>18</AutoIncrement>
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="310" parent="288" name="username">
+      <DasType>varchar(7)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="311" parent="288" name="password">
+      <DasType>varchar(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="312" parent="288" name="sex">
+      <DasType>varchar(12)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="313" parent="288" name="tel">
+      <DasType>char(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="314" parent="288" name="address">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <index id="315" parent="288" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="316" parent="288" name="user_name">
+      <ColNames>username</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="317" parent="288" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="318" parent="288" name="user_name">
       <UnderlyingIndexName>user_name</UnderlyingIndexName>
     </key>
   </database-model>

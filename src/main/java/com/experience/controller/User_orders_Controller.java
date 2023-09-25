@@ -10,10 +10,23 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 
+/***
+ * 此类用来获取一对多的订单信息
+ * @author 汪海洋
+ *
+ *
+ */
+
 @Controller
 public class User_orders_Controller {
     @Autowired
     User_orders_service user_orders_service;
+
+    /***
+     * @param id
+     * @return List
+     *
+     */
     @RequestMapping("/getList")
     public void getList(@RequestParam(value = "id",required = true) int id){
        List<User> orders = user_orders_service.getOrders(id);

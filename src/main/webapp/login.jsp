@@ -10,6 +10,7 @@
 <head>
     <meta charset="UTF-8">
     <title>登录页面</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
 </head>
 <body>
         ${msg}

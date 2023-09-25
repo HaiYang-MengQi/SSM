@@ -7,7 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import java.util.List;
+/***
+ * 此类用于分页显示数据库所有图书信息
+ * @author 汪海洋
+ */
 
 @Controller
 public class Book_all_Controller {
@@ -15,7 +18,7 @@ public class Book_all_Controller {
     Book_all_service book_all_service;
 @RequestMapping(value = "/book")
 /**
- * @author 汪海洋
+ *
  * @param pageNum 页码
  * @param pageSize 数据长度
  * @see #getBook_all_service.book
@@ -28,6 +31,4 @@ public void sendBook(int pageNum, int pageSize) {
         System.out.println(book.toString());
     }
 }
-
-
 }

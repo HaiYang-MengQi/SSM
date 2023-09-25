@@ -16,5 +16,23 @@
     <input type="file" name="fileName" multiple="multiple">
     <input type="submit" value="上传">
   </form>
+<div id="fileName"></div>
 </body>
+<script type="text/javascript">
+ window.onload = function() {
+    var xhr = new XMLHttpRequest();
+    xhr.open("get","/getFileList",true)
+    xhr.send();
+    xhr.onreadystatechange = function (response) {
+      if (xhr.status === 200 && xhr.readyState === 4){
+        console.log(xhr.responseText)
+        let data = JSON.parse(xhr.responseText);
+        let context =""
+        for(var i = 0 ; i<data.length ; i++)
+          context = context + data[i]+"<br/>"
+        document.getElementById("fileName").innerHTML = context
+      }
+    }
+  }
+</script>
 </html>

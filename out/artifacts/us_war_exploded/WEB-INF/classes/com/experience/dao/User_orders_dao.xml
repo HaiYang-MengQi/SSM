@@ -4,8 +4,9 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.experience.dao.User_orders_dao">
     <select id="getOrders" resultMap="MyOrders">
-        select * from orders where
-            orders.id = #{id};
+        select user.* , orders.*
+        from  user,orders where
+            user.id = orders.id and user.id  = #{id};
     </select>
     <resultMap id="MyOrders" type="com.experience.entity.User">
         <id property="id" column="id"/>
@@ -16,7 +17,7 @@
         <result property="address" column="address"/>
 <!--        ofType是集合中存储的类型-->
         <collection property="orders" ofType="com.experience.entity.Orders">
-            <id property="id" column="id"/>
+            <id property="id" column="orders.id"/>
             <result property="goodsname" column="goodsname"/>
             <result property="time" column="time"/>
         </collection>

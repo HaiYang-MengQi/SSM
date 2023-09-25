@@ -12,14 +12,6 @@ public class User {
 
     private List<Orders> orders;
 
-    public List<Orders> getOrders() {
-        return orders;
-    }
-
-    public void setOrders(List<Orders> orders) {
-        this.orders = orders;
-    }
-
     public int getId() {
         return id;
     }
@@ -68,7 +60,13 @@ public class User {
         this.address = address;
     }
 
+    public List<Orders> getOrders() {
+        return orders;
+    }
 
+    public void setOrders(List<Orders> orders) {
+        this.orders = orders;
+    }
 
     @Override
     public String toString() {
@@ -79,6 +77,7 @@ public class User {
                 ", sex='" + sex + '\'' +
                 ", tel='" + tel + '\'' +
                 ", address='" + address + '\'' +
+                ", orders=" + orders +
                 '}';
     }
 }
